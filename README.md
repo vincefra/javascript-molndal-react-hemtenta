@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+React - Tentamen
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+OBS: För att ordentligt kunna utföra denna tentamen är det rekommenderat att du har Node.js & GIT lokalt installerat på din hårdvara.
 
-## Available Scripts
+För betyget: GODKÄNT
 
-In the project directory, you can run:
+1.	Du behövar klona en färdig mall av ett tidigare projekt som du sedan skall utfylla och därefter ladda upp till en egen förvaringsplats. (repository)
 
-### `yarn start`
+Nedanför finner du instruktioner för att hämta den färdiga mallen:
+		a).  Kör kommandot: git clone <repositoryURL>
+b). Öppna projektet och navigera dig till /src i terminalen
+c). Kör kommandot: npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+2.	INSTRUKTIONER
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+        a). TBA: Hur man skapar komponenter med React?
+skapa en komponent som tar emot 2 props. 
 
-### `yarn build`
+        b). Implementera din nya komponent in i <HomeView/> komponenten och skicka med värden
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+        c). I <UppgiftTvo/> vyn skall du använda dig av react-hooken useState
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3.	Det avslutade resultatet skall skickas upp till ett personligt repository hos valfri distributör av git protokollet. ( rekommendationsvis: https://www.github.com/  )
 
-### `yarn eject`
+OBS: förvaringsplatsen för ditt projekt(repository) måste vara publikt och inte privat.
+Inga förändringar(commits) får ske till projektet efter avslutat tentamen tid.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+För betyget: VÄL GODKÄNT
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1.	INSTRUKTIONER
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+        a). TBA: Hur en komponents livscykel fungerar? useEffect?
 
-### Code Splitting
+        b). TBA: Skapa formulär?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+        c). TBA: vet inte riktigt ännu?
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2.	Det avslutade resultatet skall skickas upp till ett personligt repository hos valfri distributör av git protokollet. ( rekommendationsvis: https://www.github.com/ )
 
-### Making a Progressive Web App
+OBS: förvaringsplatsen för ditt projekt(repository) måste vara publikt och inte privat.
+Inga förändringar(commits) får ske till projektet efter avslutat tentamen tid.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+_____________________________________________________________________________________
 
-### Advanced Configuration
+Inlämningen sker med Github länk till projektet via PingPong
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Lycka till!
+Arasto
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
