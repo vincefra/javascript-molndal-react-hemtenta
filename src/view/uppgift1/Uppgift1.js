@@ -12,7 +12,7 @@ export const Uppgift1 = () => {
 
 INSTRUKTIONER FÖR UPPGIFT 1:
 Denna vy skall importera samt använda sig av Instruktioner.js
-Du kommer behöva skicka med 3 prop värden till Instruktioner.js komponenten.
+Du kommer behöva skicka med 3 prop värden(fornamn, efternamn, kurs) till Instruktioner.js komponenten.
 Dessa värden skall synas i http://localhost:PORT/uppgift1 fliken.
 
  */
