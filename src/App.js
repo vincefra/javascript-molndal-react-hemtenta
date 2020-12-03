@@ -1,10 +1,14 @@
 import React from 'react'
+import { Routes } from './routes/Routes'
+import { Navigation } from './components/Navigation'
+import './shared/global/global.css'
 
 function App() {
 	return (
-		<div>
-			<h2>lol</h2>
-		</div>);
+		<Routes>
+			<Navigation />
+		</Routes>
+	)
 }
 
 export default App;
