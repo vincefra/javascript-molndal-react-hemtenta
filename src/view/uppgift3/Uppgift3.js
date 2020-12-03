@@ -11,7 +11,7 @@ export const Uppgift3 = () => {
 
 	const buttons = () => {
 		return <div>
-			<button>Increment</button>
+			<button>Increment</button> <br />
 			<button>Decrement</button>
 		</div>
 	}

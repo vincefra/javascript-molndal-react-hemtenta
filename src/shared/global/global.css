@@ -114,3 +114,11 @@ input:placeholder-shown+input {
 	-webkit-transform: translateY(-4rem);
 	transform: translateY(-4rem);
 }
+
+button {
+	border-radius: 4px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	display: block;
+    margin: 0 auto;
+    text-align: center;
+}
