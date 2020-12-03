@@ -9,6 +9,13 @@ export const Uppgift3 = () => {
 		const { data } = await StarwarsService.getStarwarsCharacter(count)
 	}
 
+	const buttons = () => {
+		return <div>
+			<button>Increment</button>
+			<button>Decrement</button>
+		</div>
+	}
+
 	const displayCharacterName = () => {
 		if (character || undefined) {
 			return <div>
@@ -21,6 +28,7 @@ export const Uppgift3 = () => {
 		<div>
 			<h1>Uppgift 3</h1>
 			{displayCharacterName()}
+			{buttons()}
 		</div>
 	)
 }
@@ -30,11 +38,11 @@ export const Uppgift3 = () => {
 INSTRUKTIONER FÖR UPPGIFT 3:
 Denna vy skall använda sig av useEffect tillsammans med useState för att hämta information om Starwars karaktärer.
 
-	1. Du hittar två variabler vid namn character & count. Dessa variabler skall bytas ut mot varsitt state. (variabelnamnen skall fortsatt heta likadant)
-	2. ditt count state skall ha initialvärdet 1
+	1. Du hittar två variabler i denna vy, character & count, dessa variabler skall bytas ut mot varsitt state.
+	(variabelnamnen skall fortsatt heta likadant och de tidigare variabeldeklarationerna kan tas bort)
+	2. ditt count state skall ha initialvärdet 1 och ditt character initialvärde skall vara en tom array
 	3. i funktionen getCharacterNameFromStarwarsAPI() skall du spara värdet av data variabeln i ditt character state
-	4. Skapa två knappar. varav den ena höjer värdet i count med 1 och den andra sänker värdet med 1
-	5. importera samt initiera useEffect
+	4. I funktionen buttons() hittar du två button taggar. Skriv funktionalitet för knapparna att addera värdet av count med 1 respektive subtrahera värdet med 1
 	6. Vid första renderingen av denna vy-komponent skall funktionen getCharacterNameFromStarwarsAPI() att anropas
 	7. När värdet av count uppdateras skall det ske en ny rendering
 
