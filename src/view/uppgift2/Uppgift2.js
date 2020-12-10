@@ -16,7 +16,7 @@ INSTRUKTIONER FÖR UPPGIFT 2:
 Denna vy skall använda sig av useState hook.
 
 	1. Importera samt instansiera en ny useState.
-	Du kan döpa variablen samt funktionsnamnet efter fri vilja. (valfritt)
+	Du kan döpa variablen samt funktionsnamnet i din useState deklaration efter fri vilja. (valfritt)
 
 	2. Initialvärdet skall vara en valfri sträng
 
