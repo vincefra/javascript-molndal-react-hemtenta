@@ -3,9 +3,9 @@ import React from 'react'
 export const Introduktion = (props) => {
 	return (
 		<div className="introduktion">
-			<h2>Förnamn: {props.name}</h2>
-			<h2>Efternamn: {props.lastname}</h2>
-			<h2>Kurs: {props.course}</h2>
+			<h2>Förnamn: {props.fornamn}</h2>
+			<h2>Efternamn: {props.efternamn}</h2>
+			<h2>Kurs: {props.kurs}</h2>
 		</div>
 	)
 }
