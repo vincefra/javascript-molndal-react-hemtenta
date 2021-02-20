@@ -5,7 +5,7 @@ export const Uppgift1 = () => {
 	return (
 		<div>
 			<h1>Uppgift 1</h1>
-			< Introduktion name="Vincent" lastname="Frank" course="JavaScript fullstack V21-1" />
+			< Introduktion fornamn="Vincent" efternamn="Frank" kurs="JavaScript fullstack V21-1" />
 		</div>
 	)
 }
